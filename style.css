@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body{
+    background: rgb(235,233,233);
+}
+.nike{
+    background: rgb(235,233,233);
+    width: 100%;
+}
+.text{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 25px 15px;
+    padding:15px;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.flex-container .flex-item{
+    border-radius: 10px;
+    background: #fff;
+    padding:5%;
+    margin:2%;
+    width: 36%;
+}
+.flex-container .flex-item .card{
+    position: relative;
+}
+.card .card-heart{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top:-10px;
+    right: -30px;
+}
+.card .card-heart img{
+    width:50%;
+}
+
+.card .card-img img{
+    width: 100%;
+}
+.card .card-content h1{
+    font-size: 13px;
+    font-weight:300;
+    margin: 10px 0;
+}
